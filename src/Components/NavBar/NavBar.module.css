@@ -1,7 +1,10 @@
 nav {
     display: flex;
-    height: 80px;
-    backdrop-filter: blur(2px);
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    animation: nav-animation 4s forwards;
+    overflow: hidden;
 }
 
 .container {
@@ -9,10 +12,42 @@ nav {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+
+}
+
+@keyframes nav-animation {
+
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes nav-animation {
+
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .items {
     display: flex;
+    margin-top: 20px;
+    margin-right: 150px;
 }
 
 ul {
@@ -26,18 +61,37 @@ li {
     margin: 0 10px 0 10px;
 }
 
-a:hover {
-    border-bottom: solid turquoise;
+.link:hover {
+    text-shadow:
+        0 0 6px rgba(10, 197, 239, 0.9),
+        0 0 30px rgba(5, 159, 255, 0.9),
+        0 0 12px rgba(30, 132, 242, 0.9),
+        0 0 21px rgba(30, 132, 242, 0.9),
+        0 0 34px rgba(30, 132, 242, 0.9),
+        0 0 54px rgba(30, 132, 242, 0.9);
 }
 
-a {
+.link {
     font-size: 40px;
-    color: rgb(0, 110, 255);
+    color: rgb(0, 162, 255);
     margin: 0 10px 0 10px;
+    transition: all 1s;
+    white-space: nowrap;
 }
 
 a:link,
 a:visited,
 a:active {
     text-decoration: none;
+}
+
+.mainText {
+    font-family: "Vibur", cursive;
+    margin-left: 40px;
+    animation: neon 1.5s infinite alternate;
+    -webkit-animation: neon 1.5s infinite alternate;
+    font-size: 65px;
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+    white-space: nowrap;
 }

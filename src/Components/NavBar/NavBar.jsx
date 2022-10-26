@@ -1,26 +1,33 @@
 import style from './NavBar.module.css';
+import { Link } from 'react-router-dom';
+import logo from './Images/logo.png';
 
 function NavBar() {
-    return (<>
+    return (<header>
         <nav>
             <div className={style.container}>
-                <a href="#">Navbar</a>
+                <div className={style.icon}>
+                    <Link to={'/'}><img src={logo} alt='P.A.' /></Link>
+                </div>
                 <div className={style.items}>
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <Link to={'/'}><span className={style.link}>Home</span></Link>
                         </li>
                         <li >
-                            <a href="#">Features</a>
+                            <Link to={'/projects'}><span className={style.link}>About</span></Link>
+                        </li>
+                        <li>
+                            <Link to={'/contact'}><span className={style.link}>Projects</span></Link>
                         </li>
                         <li >
-                            <a href="#">Pricing</a>
+                            <Link to={'/downloadCV'}><span className={style.link}>Resume</span></Link>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </>);
+    </header>);
 };
 
 export default NavBar;

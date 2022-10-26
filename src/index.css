@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./Images/fondo.png');
-  background-size: auto;
+  background-image: url('./Images/fondoCarbon.png');
+  background-size: cover;
 }
 
 code {
