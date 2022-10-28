@@ -1,39 +1,40 @@
 nav {
     display: flex;
+    position: fixed;
+    z-index: 2;
     height: 100px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
     animation: nav-animation 4s forwards;
-    overflow: hidden;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
-
+    width: 100%;
 }
 
 @keyframes nav-animation {
 
     from {
-        width: 0;
+        transform: translateX(-100%);
     }
 
     to {
-        width: 100%;
+        transform: translateX(0);
     }
 }
 
 @-webkit-keyframes nav-animation {
 
     from {
-        width: 0;
+        transform: translateX(-100%);
     }
 
     to {
-        width: 100%;
+        transform: translateX(0);
     }
 }
 

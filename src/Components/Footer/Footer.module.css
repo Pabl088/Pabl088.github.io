@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    animation: animation 4s forwards;
+}
+
+@keyframes animation {
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes animation {
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.container p h3 {
+    font-size: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 10px;
+}
+
+.container ul li a {
+    font-size: 15px;
+    margin: 0 5px;
+}
