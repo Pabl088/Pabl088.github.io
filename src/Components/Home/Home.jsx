@@ -1,6 +1,5 @@
 import style from './Home.module.css';
-import developer from './Images/developer.gif';
-import Footer from '../Footer/Footer.jsx';
+import developer from './Images/developer.svg';
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,6 +13,7 @@ function Home() {
             </div>
             <div className={style.developerImg}>
                 <img src={developer} alt="developer" />
+
             </div>
         </div>
         <div className={style.secondContainer}>
@@ -50,7 +50,6 @@ function Home() {
                 </li>
             </ul>
         </div>
-        <Footer />
     </>);
 };
 

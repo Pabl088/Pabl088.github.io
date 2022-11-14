@@ -1,12 +1,13 @@
 .container {
+    position: absolute;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 20px;
+    height: 30px;
     width: 100%;
-    margin-top: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(4px);
     animation: animation 4s forwards;
 }
@@ -34,13 +35,13 @@
 }
 
 .container p h3 {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin: 0 10px;
 }
 
 .container ul li a {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 5px;
 }
