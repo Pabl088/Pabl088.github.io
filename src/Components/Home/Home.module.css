@@ -199,8 +199,6 @@
 .secondContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     margin: 200px 400px auto 400px;
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
@@ -219,8 +217,8 @@ h2 {
 p {
     color: rgb(0, 162, 255);
     font-size: 25px;
-    animation: appear 2s forwards;
     text-align: center;
+    animation: appear 2s forwards;
 }
 
 .contactContainer p {
