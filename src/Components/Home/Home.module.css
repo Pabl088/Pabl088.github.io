@@ -5,7 +5,7 @@
 }
 
 .typing p {
-    color: rgb(0, 162, 255);
+    color: white;
     font-size: 50px;
     font-family: monospace;
     overflow: hidden;
@@ -208,14 +208,14 @@
 }
 
 h2 {
-    color: rgb(0, 162, 255);
+    color: white;
     font-size: 50px;
     text-align: center;
     animation: appear 2s forwards;
 }
 
 p {
-    color: rgb(0, 162, 255);
+    color: white;
     font-size: 25px;
     text-align: center;
     animation: appear 2s forwards;

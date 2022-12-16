@@ -1,4 +1,5 @@
 .container {
+    min-width: 1300px;
     position: absolute;
     bottom: 0;
     display: flex;

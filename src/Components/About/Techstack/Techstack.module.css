@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 400px;
+}
+
+.techbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 120px;
+    font-size: 6em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    border: black solid 4px;
+}
+
+.techbox span{
+    font-size: 25px;
+    margin: 0;
+}
+
+.techicon{
+    margin: 0;
+}

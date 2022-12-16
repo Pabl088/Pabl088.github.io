@@ -15,13 +15,13 @@ function NavBar() {
                             <Link to={'/'}><span className={style.link}>Home</span></Link>
                         </li>
                         <li >
-                            <Link to={'/projects'}><span className={style.link}>About</span></Link>
+                            <Link to={'/about'}><span className={style.link}>About</span></Link>
                         </li>
                         <li>
-                            <Link to={'/contact'}><span className={style.link}>Projects</span></Link>
+                            <Link to={'/project'}><span className={style.link}>Projects</span></Link>
                         </li>
                         <li >
-                            <Link to={'/downloadCV'}><span className={style.link}>Resume</span></Link>
+                            <Link to={'/resume'}><span className={style.link}>Resume</span></Link>
                         </li>
                     </ul>
                 </div>
