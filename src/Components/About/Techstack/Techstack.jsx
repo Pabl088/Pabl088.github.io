@@ -1,4 +1,4 @@
-import style from "./Techstack.module.css";
+import style from "./TechStack.module.css";
 import { TbBrandHtml5, TbBrandCss3, TbBrandJavascript } from "react-icons/tb";
 import { SiTypescript, SiReact, SiNestjs, SiJava, SiSpring, SiHibernate, SiPostgresql, SiMongodb } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
@@ -6,53 +6,54 @@ import { DiNodejs } from "react-icons/di";
 function Techstack() {
     return (
         <>
+            <h2>Professional skills</h2>
             <div className={style.container}>
                 <div className={`${style.techbox} ${style.animation1}`}>
-                    <TbBrandHtml5 className={style.techicon} />
+                    <TbBrandHtml5 />
                     <span>HTML5</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation2}`}>
-                    <TbBrandCss3 className={style.techicon} />
+                    <TbBrandCss3 />
                     <span>CSS3</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation3}`}>
-                    <TbBrandJavascript className={style.techicon} />
+                    <TbBrandJavascript />
                     <span>Javascript</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation4}`}>
-                    <SiTypescript style={{ fontSize: '70px', marginTop: '12px' }} className={style.techicon} />
+                    <SiTypescript style={{ fontSize: '70px', marginTop: '12px' }} />
                     <span>TypeScript</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation5}`}>
-                    <SiReact className={style.techicon} />
+                    <SiReact />
                     <span>React.js</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation6}`}>
-                    <DiNodejs className={style.techicon} />
+                    <DiNodejs />
                     <span>Node.js</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation7}`}>
-                    <SiNestjs className={style.techicon} />
+                    <SiNestjs />
                     <span>Nest.js</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation8}`}>
-                    <SiJava className={style.techicon} />
+                    <SiJava />
                     <span>Java</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation9}`}>
-                    <SiSpring className={style.techicon} />
+                    <SiSpring />
                     <span>Spring</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation10}`}>
-                    <SiHibernate className={style.techicon} />
+                    <SiHibernate />
                     <span>Hibernate</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation11}`}>
-                    <SiPostgresql className={style.techicon} />
+                    <SiPostgresql />
                     <span>PostgreSQL</span>
                 </div>
                 <div className={`${style.techbox} ${style.animation12}`}>
-                    <SiMongodb className={style.techicon} />
+                    <SiMongodb />
                     <span>MongoDB</span>
                 </div>
             </div>

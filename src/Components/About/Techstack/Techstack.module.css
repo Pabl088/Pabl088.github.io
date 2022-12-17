@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .techbox {
@@ -11,6 +11,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 20px;
+    padding: 10px 0;
     width: 200px;
     height: 120px;
     font-size: 6em;
@@ -25,10 +27,6 @@
 
 .techbox span {
     font-size: 25px;
-    margin: 0;
-}
-
-.techicon {
     margin: 0;
 }
 
