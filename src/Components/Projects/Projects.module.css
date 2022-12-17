@@ -7,16 +7,32 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .text h2 {
     margin: 0;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .text h4 {
     color: white;
     margin: 0;
     font-size: 25px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    border: black solid 4px;
+    border-radius: 20px;
 }

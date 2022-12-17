@@ -207,13 +207,20 @@
     animation: appear 2s forwards;
 }
 
-.secondContainer p{
+.secondContainer p {
     margin: 0;
 }
 
 h2 {
     color: white;
     font-size: 50px;
+    text-align: center;
+    animation: appear 2s forwards;
+}
+
+h4,
+h3 {
+    color: white;
     text-align: center;
     animation: appear 2s forwards;
 }
