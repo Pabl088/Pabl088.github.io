@@ -18,7 +18,7 @@ function NavBar() {
                             <Link to={'/about'}><span className={style.link}>About</span></Link>
                         </li>
                         <li>
-                            <Link to={'/project'}><span className={style.link}>Projects</span></Link>
+                            <Link to={'/projects'}><span className={style.link}>Projects</span></Link>
                         </li>
                         <li >
                             <Link to={'/resume'}><span className={style.link}>Resume</span></Link>
