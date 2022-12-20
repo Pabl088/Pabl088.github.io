@@ -47,6 +47,7 @@
     margin: 0 5px;
 }
 
-/* ul{
-    margin-right: 150px;
-} */
+.container p, .container ul{
+    margin: 0;
+    padding: 0;
+}
