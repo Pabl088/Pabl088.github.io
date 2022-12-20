@@ -211,9 +211,12 @@
     margin: 0;
 }
 
+.secondContainer h2 {
+    font-size: 50px;
+}
+
 h2 {
     color: white;
-    font-size: 50px;
     text-align: center;
     animation: appear 2s forwards;
 }
@@ -232,12 +235,14 @@ p {
     animation: appear 2s forwards;
 }
 
-.contactContainer p {
-    margin-top: 0;
+.contactContainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .contactContainer h2 {
     margin-bottom: 0;
+    font-size: 40px;
 }
 
 .contactContainer ul {

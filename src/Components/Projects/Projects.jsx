@@ -1,5 +1,7 @@
 import style from './Projects.module.css';
 import SocialSound from './Images/SocialSound.png';
+import WikiPoke from './Images/WikiPoke.png';
+import Portfolio from './Images/Portfolio.png';
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
@@ -26,6 +28,47 @@ function Projects() {
                                 GitHub
                             </Button>
                             <Button variant="primary" href='https://www.socialsound.art/' target="_blank">
+                                <CgWebsite /> &nbsp;
+                                Demo
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.projectbox}>
+                    <img src={WikiPoke} alt="WikiPoke" />
+                    <div className={style.projectext}>
+                        <h3>WikiPoke</h3>
+                        <p>Individual project done for Henry's bootcamp using ReactJs, Redux, NodeJs, Express and PostgreSQL.
+                            It is a small SPA (single page application) to consult the data of all existing pokemons with the possibility of creating your own pokemons.
+                            <br />
+                            <br />
+                            Technologies used: Javascript - CSS - React.js - Node.js - Express - PostgreSQL</p>
+                        <div className={style.buttons}>
+                            <Button variant="primary" href='https://github.com/Pabl088/WikiPoke' target="_blank">
+                                <BsGithub /> &nbsp;
+                                GitHub
+                            </Button>
+                            <Button variant="primary" href='https://wikipoke.vercel.app/' target="_blank">
+                                <CgWebsite /> &nbsp;
+                                Demo
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${style.projectbox} ${style.spacebottom}`}>
+                    <img src={Portfolio} alt="Portfolio" />
+                    <div className={style.projectext}>
+                        <h3>Portfolio</h3>
+                        <p>Final group project done for Henry's bootcamp. It is a social network aimed at amateur musicians who want to spread their art and at the same time connect and learn about the work of colleagues.
+                            <br />
+                            <br />
+                            Technologies used: Javascript - CSS - React.js - Redux - Material UI - Firebase - Nodemailer - Stripe - Bcrypt - PostgreSQL</p>
+                        <div className={style.buttons}>
+                            <Button variant="primary" href='https://github.com/Pabl088/Portfolio' target="_blank">
+                                <BsGithub /> &nbsp;
+                                GitHub
+                            </Button>
+                            <Button variant="primary" href='https://github.com/Pabl088/Portfolio' target="_blank">
                                 <CgWebsite /> &nbsp;
                                 Demo
                             </Button>

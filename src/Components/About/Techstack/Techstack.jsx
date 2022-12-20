@@ -6,7 +6,7 @@ import { DiNodejs } from "react-icons/di";
 function Techstack() {
     return (
         <>
-            <h2>Professional skills</h2>
+            <h2 className={style.titleskill}>Professional skills</h2>
             <div className={style.container}>
                 <div className={`${style.techbox} ${style.animation1}`}>
                     <TbBrandHtml5 />

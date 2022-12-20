@@ -1,10 +1,10 @@
-import { SiFirebase, SiVisualstudiocode, SiPostman, SiHeroku, SiVercel, SiIntellijidea } from "react-icons/si";
+import { SiFirebase, SiVisualstudiocode, SiPostman, SiHeroku, SiVercel, SiIntellijidea, SiRailway } from "react-icons/si";
 import style from './ToolStack.module.css';
 
 function ToolStack() {
     return (
-        <>
-            <h2>Tools I use</h2>
+        <div className={style.main}>
+            <h2 className={style.titletools}>Tools I use</h2>
             <div className={style.container}>
                 <div className={`${style.toolbox} ${style.animation1}`}>
                     <SiVisualstudiocode />
@@ -19,20 +19,23 @@ function ToolStack() {
                     <span>Vercel</span>
                 </div>
                 <div className={`${style.toolbox} ${style.animation4}`}>
+                    <SiRailway />
+                    <span>Railway</span>
+                </div>
+                <div className={`${style.toolbox} ${style.animation5}`}>
                     <SiHeroku />
                     <span>Heroku</span>
                 </div>
-                <div className={`${style.toolbox} ${style.animation5}`}>
+                <div className={`${style.toolbox} ${style.animation6}`}>
                     <SiPostman />
                     <span>Postman</span>
                 </div>
-                <div className={`${style.toolbox} ${style.animation6}`}>
+                <div className={`${style.toolbox} ${style.animation7}`}>
                     <SiFirebase />
                     <span>Firebase</span>
                 </div>
-
             </div>
-        </>
+        </div>
     );
 }
 

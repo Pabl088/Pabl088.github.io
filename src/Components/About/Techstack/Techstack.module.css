@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
-    /* height: 400px; */
+    margin-top: 30px;
 }
 
 .techbox {
@@ -34,6 +34,10 @@
 .techbox span {
     font-size: 25px;
     margin: 0;
+}
+
+.titleskill{
+    font-size: 50px;
 }
 
 @keyframes animation {

@@ -47,7 +47,8 @@
     margin: 0 5px;
 }
 
-.container p, .container ul{
+.container p,
+.container ul {
     margin: 0;
     padding: 0;
 }

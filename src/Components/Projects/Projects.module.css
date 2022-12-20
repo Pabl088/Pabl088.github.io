@@ -23,7 +23,8 @@
 
 .projects {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 70px;
 }
 
@@ -36,6 +37,11 @@
     backdrop-filter: blur(2px);
     border: black solid 4px;
     border-radius: 20px;
+    margin: 40px 0;
+}
+
+.spacebottom {
+    margin-bottom: 80px;
 }
 
 .projectbox:hover {
@@ -48,6 +54,7 @@
     width: 50%;
     height: 90%;
     margin-left: 30px;
+    border-radius: 10px;
 }
 
 .projectext {
@@ -60,12 +67,12 @@
     margin-right: 30px;
 }
 
-.projectext h3{
+.projectext h3 {
     font-size: 40px;
     margin: 10px 0;
 }
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-between;
     width: 50%;
