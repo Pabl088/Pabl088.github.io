@@ -38,7 +38,7 @@ function Projects() {
                     <img src={WikiPoke} alt="WikiPoke" />
                     <div className={style.projectext}>
                         <h3>WikiPoke</h3>
-                        <p>Individual project done for Henry's bootcamp using ReactJs, Redux, NodeJs, Express and PostgreSQL.
+                        <p>Individual project done for Henry's bootcamp. <br />
                             It is a small SPA (single page application) to consult the data of all existing pokemons with the possibility of creating your own pokemons.
                             <br />
                             <br />
