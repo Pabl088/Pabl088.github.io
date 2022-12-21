@@ -8,12 +8,8 @@ function Footer() {
 
     return (
         <div className={style.container}>
-            <p>
-                <h3>Developed by Pablo Albín</h3>
-            </p>
-            <p >
-                <h3>Copyright © {year} P.A.</h3>
-            </p>
+            <span className={style.footerText}>Developed by Pablo Albín</span>
+            <span className={style.footerText}>Copyright © {year} P.A.</span>
             <ul>
                 <li className="social-icons">
                     <a href="https://www.linkedin.com/in/pablo-albin" target="_blank" rel="noopener noreferrer">

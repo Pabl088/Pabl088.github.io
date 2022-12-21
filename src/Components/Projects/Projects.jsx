@@ -59,16 +59,16 @@ function Projects() {
                     <img src={Portfolio} alt="Portfolio" />
                     <div className={style.projectext}>
                         <h3>Portfolio</h3>
-                        <p>Final group project done for Henry's bootcamp. It is a social network aimed at amateur musicians who want to spread their art and at the same time connect and learn about the work of colleagues.
+                        <p>This website. I hope you like it and you can get to know me a little. I will update it with more information and new projects, so do not hesitate to come back.
                             <br />
                             <br />
-                            Technologies used: Javascript - CSS - React.js - Redux - Material UI - Firebase - Nodemailer - Stripe - Bcrypt - PostgreSQL</p>
+                            Technologies used: Javascript - CSS - React.js - React Icons - React Bootstrap</p>
                         <div className={style.buttons}>
                             <Button variant="primary" href='https://github.com/Pabl088/Portfolio' target="_blank">
                                 <BsGithub /> &nbsp;
                                 GitHub
                             </Button>
-                            <Button variant="primary" href='https://github.com/Pabl088/Portfolio' target="_blank">
+                            <Button variant="primary" href='https://pabloalbin.com' target="_blank">
                                 <CgWebsite /> &nbsp;
                                 Demo
                             </Button>
