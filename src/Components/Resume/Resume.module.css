@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 50px 0;
+}
+
+.buttonPage {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin: 0;
+}
+
+/* .document {
+    margin: 20px 0;
+} */
