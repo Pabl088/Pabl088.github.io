@@ -63,14 +63,10 @@ function Projects() {
                             <br />
                             <br />
                             Technologies used: Javascript - CSS - React.js - React Icons - React Bootstrap</p>
-                        <div className={style.buttons}>
+                        <div className={style.buttons} style={{ justifyContent: 'center' }}>
                             <Button variant="primary" href='https://github.com/Pabl088/Portfolio' target="_blank">
                                 <BsGithub /> &nbsp;
                                 GitHub
-                            </Button>
-                            <Button variant="primary" href='https://pabloalbin.com' target="_blank">
-                                <CgWebsite /> &nbsp;
-                                Demo
                             </Button>
                         </div>
                     </div>
