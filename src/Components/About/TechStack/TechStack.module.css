@@ -19,7 +19,7 @@
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(2px);
-    border: black solid 4px;
+    border: rgb(62, 62, 184) solid 1px;
     border-radius: 20px;
     overflow: hidden;
     opacity: 0;
