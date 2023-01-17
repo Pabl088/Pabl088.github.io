@@ -88,7 +88,7 @@ function Projects() {
                                 <BsGithub /> &nbsp;
                                 GitHub
                             </Button>
-                            <Button variant="primary" href='https://www.socialsound.art/' target="_blank">
+                            <Button variant="primary" href='https://github.com/Pabl088/Portfolio/raw/master/src/Components/Projects/Files/FruitApp.apk' target="_blank">
                                 <AiOutlineDownload /> &nbsp;
                                 APK
                             </Button>
