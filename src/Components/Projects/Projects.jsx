@@ -78,8 +78,7 @@ function Projects() {
                     <img src={FruitApp} alt="FruitApp" />
                     <div className={style.projectext}>
                         <h3>FruitApp</h3>
-                        <p>Didactic game for android with arithmetic operations and different levels.
-                            Stores the highest score achieved and displays it on the main screen along with the user's name.
+                        <p>Didactic game for children with arithmetic operations and different levels. It stores the highest score obtained and displays it on the main screen along with the user's name.
                             <br />
                             <br />
                             Developed in Java with gradle. </p>
