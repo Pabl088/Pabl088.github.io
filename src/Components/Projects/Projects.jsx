@@ -1,10 +1,13 @@
 import style from './Projects.module.css';
 import SocialSound from './Images/SocialSound.png';
+import DataSystem from './Images/datasystem.gif';
+import FruitApp from './Images/fruitapp.gif';
 import WikiPoke from './Images/WikiPoke.png';
 import Portfolio from './Images/Portfolio.png';
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function Projects() {
     return (
@@ -51,6 +54,43 @@ function Projects() {
                             <Button variant="primary" href='https://wikipoke.vercel.app/' target="_blank">
                                 <CgWebsite /> &nbsp;
                                 Demo
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.projectbox}>
+                    <img src={DataSystem} alt="DataSystem" />
+                    <div className={style.projectext}>
+                        <h3>DataSystem</h3>
+                        <p>Desktop application for the management of business information, oriented to the sector of repair and maintenance of computer equipment.
+                            <br />
+                            <br />
+                            Developed in Java with database connection and data export to PDF document.</p>
+                        <div className={style.buttons} style={{ justifyContent: 'center' }}>
+                            <Button variant="primary" href='https://github.com/Pabl088/DataSystem' target="_blank">
+                                <BsGithub /> &nbsp;
+                                GitHub
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.projectbox}>
+                    <img src={FruitApp} alt="FruitApp" />
+                    <div className={style.projectext}>
+                        <h3>FruitApp</h3>
+                        <p>Didactic game for android with arithmetic operations and different levels.
+                            Stores the highest score achieved and displays it on the main screen along with the user's name.
+                            <br />
+                            <br />
+                            Developed in Java with gradle. </p>
+                        <div className={style.buttons}>
+                            <Button variant="primary" href='https://github.com/Pabl088/FruitApp' target="_blank">
+                                <BsGithub /> &nbsp;
+                                GitHub
+                            </Button>
+                            <Button variant="primary" href='https://www.socialsound.art/' target="_blank">
+                                <AiOutlineDownload /> &nbsp;
+                                APK
                             </Button>
                         </div>
                     </div>
