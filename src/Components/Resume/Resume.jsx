@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function Resume() {
 
-    const [numPages, setNumPages] = useState(2);
+    const [numPages, setNumPages] = useState(3);
     const [page, setPage] = useState(1);
 
     const nextPage = () => {
@@ -31,7 +31,7 @@ function Resume() {
             <p>Page {page} of {numPages}</p>
             <div className={style.pages}>
                 <button disabled={page === 1} onClick={previusPage} className={style.buttonPage} >{"<"}</button>
-                <button disabled={page === 2} onClick={nextPage} className={style.buttonPage}>{">"}</button>
+                <button disabled={page === numPages} onClick={nextPage} className={style.buttonPage}>{">"}</button>
             </div>
             <Document file={cv} className={style.document}>
                 <Page pageNumber={page} scale={1.5} />
@@ -39,7 +39,7 @@ function Resume() {
             <p>Page {page} of {numPages}</p>
             <div className={style.pages}>
                 <button disabled={page === 1} onClick={previusPage} className={style.buttonPage} >{"<"}</button>
-                <button disabled={page === 2} onClick={nextPage} className={style.buttonPage}>{">"}</button>
+                <button disabled={page === numPages} onClick={nextPage} className={style.buttonPage}>{">"}</button>
             </div>
             <Button variant="primary" href={cv} target="_blank" className={style.BDownload}>
                 <AiOutlineDownload />
