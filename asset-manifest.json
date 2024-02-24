@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Pabl088/Pabl088.github.io/static/css/main.7272a500.css",
+    "main.js": "/Pabl088/Pabl088.github.io/static/js/main.c1a22ec2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Pabl088/Pabl088.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fruitapp.gif": "/Pabl088/Pabl088.github.io/static/media/fruitapp.e4bf4ce78ca561de88be.gif",
+    "static/media/datasystem.gif": "/Pabl088/Pabl088.github.io/static/media/datasystem.ac7271b072a83ef9037e.gif",
+    "static/media/WikiPoke.png": "/Pabl088/Pabl088.github.io/static/media/WikiPoke.d769192bfe484b14c2f6.png",
+    "static/media/Portfolio.png": "/Pabl088/Pabl088.github.io/static/media/Portfolio.f1cdc482e63c21c02f1f.png",
+    "static/media/back.png": "/Pabl088/Pabl088.github.io/static/media/back.7678defb047a776adff3.png",
+    "static/media/SocialSound.png": "/Pabl088/Pabl088.github.io/static/media/SocialSound.fb51c7f848ebbc1026de.png",
+    "static/media/PabloAlbinCV.pdf": "/Pabl088/Pabl088.github.io/static/media/PabloAlbinCV.9caaaa5eb95ad24904a9.pdf",
+    "static/media/developer.svg": "/Pabl088/Pabl088.github.io/static/media/developer.422be0a7dfa7657b2aef015cc4d9c2fc.svg",
+    "static/media/loading.svg": "/Pabl088/Pabl088.github.io/static/media/loading.4c1a9a1e97cf44e87de0.svg",
+    "index.html": "/Pabl088/Pabl088.github.io/index.html",
+    "main.7272a500.css.map": "/Pabl088/Pabl088.github.io/static/css/main.7272a500.css.map",
+    "main.c1a22ec2.js.map": "/Pabl088/Pabl088.github.io/static/js/main.c1a22ec2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Pabl088/Pabl088.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7272a500.css",
+    "static/js/main.c1a22ec2.js"
+  ]
+}
