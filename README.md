@@ -1,6 +1,6 @@
-# Mi portfolio, espero que les guste :)
+# Mi portfolio, espero que les guste
 
-# My portfolio, I hope to like it :)
+# My portfolio, I hope to like it
 <br/>
 <br/>
 <a href="https://www.pabloalbin.com/" target="_blank" rel="noopener noreferrer">
