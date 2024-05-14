@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c64a7d4a.css",
-    "main.js": "/static/js/main.c2af9ab0.js",
+    "main.js": "/static/js/main.3309a354.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/fruitapp.gif": "/static/media/fruitapp.e4bf4ce78ca561de88be.gif",
     "static/media/datasystem.gif": "/static/media/datasystem.ac7271b072a83ef9037e.gif",
@@ -9,16 +9,16 @@
     "static/media/Portfolio.png": "/static/media/Portfolio.f1cdc482e63c21c02f1f.png",
     "static/media/back.png": "/static/media/back.7678defb047a776adff3.png",
     "static/media/SocialSound.png": "/static/media/SocialSound.fb51c7f848ebbc1026de.png",
-    "static/media/PabloAlbinCV.pdf": "/static/media/PabloAlbinCV.9caaaa5eb95ad24904a9.pdf",
+    "static/media/PabloAlbinCV.pdf": "/static/media/PabloAlbinCV.2a4a0e80f13d50842eab.pdf",
     "static/media/developer.svg": "/static/media/developer.422be0a7dfa7657b2aef015cc4d9c2fc.svg",
     "static/media/loading.svg": "/static/media/loading.4c1a9a1e97cf44e87de0.svg",
     "index.html": "/index.html",
     "main.c64a7d4a.css.map": "/static/css/main.c64a7d4a.css.map",
-    "main.c2af9ab0.js.map": "/static/js/main.c2af9ab0.js.map",
+    "main.3309a354.js.map": "/static/js/main.3309a354.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c64a7d4a.css",
-    "static/js/main.c2af9ab0.js"
+    "static/js/main.3309a354.js"
   ]
 }
