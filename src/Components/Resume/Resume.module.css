@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 0 50px 0;
+    padding: 100px 0 50px 0;
 }
 
 .buttonPage {
@@ -15,7 +15,3 @@
 .container p {
     margin: 0;
 }
-
-/* .document {
-    margin: 20px 0;
-} */

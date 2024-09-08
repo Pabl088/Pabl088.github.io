@@ -1,6 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
 .typing {
     width: 630px;
-    margin-top: 250px;
+    margin-top: 125px;
     margin-left: 120px;
 }
 
@@ -47,6 +58,61 @@
         blink-cursor 1s step-end infinite;
     animation-delay: 6.5s;
     -webkit-animation-delay: 6.5s;
+}
+
+.developerImg {
+    display: flex;
+    padding: 125px 125px 0;
+}
+
+.developerImg img {
+    width: 380px;
+    border-radius: 10px;
+    animation: appear 2s forwards;
+}
+
+.secondContainer{
+    display: flex;
+    padding-top: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    border: black solid 5px;
+    border-radius: 15px;
+    animation: appear 2s forwards;
+}
+
+.secondContainer p {
+    margin: 0;
+}
+
+.secondContainer h2 {
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    animation: appear 2s forwards;
+}
+
+h4,
+h3 {
+    color: white;
+    text-align: center;
+    animation: appear 2s forwards;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    animation: appear 2s forwards;
 }
 
 @keyframes typing1 {
@@ -155,25 +221,6 @@
     }
 }
 
-.firstContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.developerImg {
-    margin-top: 180px;
-    margin-right: 400px;
-    margin-left: auto;
-}
-
-.developerImg img {
-    width: 700px;
-    height: 500px;
-    border-radius: 10px;
-    animation: appear 2s forwards;
-}
-
 @keyframes appear {
 
     from {
@@ -194,65 +241,4 @@
     to {
         opacity: 1;
     }
-}
-
-.secondContainer {
-    display: flex;
-    flex-direction: column;
-    margin: 120px 400px auto 400px;
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
-    border: black solid 5px;
-    border-radius: 15px;
-    animation: appear 2s forwards;
-}
-
-.secondContainer p {
-    margin: 0;
-}
-
-.secondContainer h2 {
-    font-size: 50px;
-}
-
-h2 {
-    color: white;
-    text-align: center;
-    animation: appear 2s forwards;
-}
-
-h4,
-h3 {
-    color: white;
-    text-align: center;
-    animation: appear 2s forwards;
-}
-
-p {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    animation: appear 2s forwards;
-}
-
-.contactContainer {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.contactContainer h2 {
-    margin-bottom: 0;
-    font-size: 40px;
-}
-
-.contactContainer ul {
-    display: flex;
-    justify-content: center;
-}
-
-li a {
-    color: white;
-    font-size: 2.5em;
-    margin: 0 20px;
-    animation: appear 2s forwards;
 }

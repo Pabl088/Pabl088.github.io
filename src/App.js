@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Home from './Components/Home/Home.jsx';
-import About from './Components/About/About.jsx';
 import Projects from './Components/Projects/Projects.jsx';
-import ScrollToTop from './Components/ScrollToTop.jsx';
+import Skills from "./Components/Skills/Skills.jsx";
 import Resume from "./Components/Resume/Resume.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Load from "./Components/Loading/Load.jsx";
+import { Link as ScrollLink, Element } from 'react-scroll';
 
 function App() {
 
@@ -18,20 +18,29 @@ function App() {
 
     setTimeout(() => {
       updateLoad(true);
-    }, 1500);
+    }, 500);
   }, []);
 
   return (
     <>
       <Load load={load} />
       <NavBar />
-      <ScrollToTop />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/resume' element={<Resume />} />
-      </Routes>
+      <ScrollLink />
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="projects">
+        <Projects />
+      </Element>
+      <Element name="skills">
+        <Skills />
+      </Element>
+      <Element name="resume">
+        <Resume />
+      </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
       <Footer />
     </>
   );

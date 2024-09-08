@@ -39,6 +39,10 @@ nav {
     }
 }
 
+.icon:hover {
+    cursor: pointer;
+}
+
 .icon img {
     width: 80px;
     height: 80px;
@@ -64,6 +68,7 @@ nav {
 }
 
 .link:hover {
+    cursor: pointer;
     text-shadow:
         0 0 6px rgba(10, 197, 239, 0.9),
         0 0 30px rgba(5, 159, 255, 0.9),

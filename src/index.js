@@ -11,7 +11,7 @@ axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:3001';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const setOnFocusTitle = document.title;
-const setOnBlurTitle = 'Hope you back soon!';
+const setOnBlurTitle = 'Hope you back soon! | Pablo Albin';
 
 window.onblur = () => {
   document.title = setOnBlurTitle;
