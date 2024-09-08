@@ -31,7 +31,7 @@ function Projects() {
               <Button variant="primary" href="https://github.com/Pabl088/SocialSound/" target="_blank">
                 <BsGithub /> &nbsp; GitHub
               </Button>
-              <Button variant="primary" href="https://www.socialsound.art/" target="_blank">
+              <Button variant="primary" href="https://social-sound.vercel.app" target="_blank">
                 <CgWebsite /> &nbsp; Demo
               </Button>
             </div>
@@ -52,25 +52,8 @@ function Projects() {
               <Button variant="primary" href="https://github.com/Pabl088/WikiPoke" target="_blank">
                 <BsGithub /> &nbsp; GitHub
               </Button>
-              <Button variant="primary" href="https://wikipoke.vercel.app/" target="_blank">
+              <Button variant="primary" href="https://wikipoke.vercel.app" target="_blank">
                 <CgWebsite /> &nbsp; Demo
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className={style.projectbox}>
-          <img src={DataSystem} alt="DataSystem" />
-          <div className={style.projectext}>
-            <h3>DataSystem</h3>
-            <p>
-              Desktop application for the management of business information, oriented to the sector of repair and maintenance of computer equipment.
-              <br />
-              <br />
-              Developed in Java with database connection and data export to PDF document.
-            </p>
-            <div className={style.buttons} style={{ justifyContent: "center" }}>
-              <Button variant="primary" href="https://github.com/Pabl088/DataSystem" target="_blank">
-                <BsGithub /> &nbsp; GitHub
               </Button>
             </div>
           </div>
@@ -90,8 +73,25 @@ function Projects() {
               <Button variant="primary" href="https://github.com/Pabl088/FruitApp" target="_blank">
                 <BsGithub /> &nbsp; GitHub
               </Button>
-              <Button variant="primary" href="https://github.com/Pabl088/Portfolio/raw/master/src/Components/Projects/Files/FruitApp.apk" target="_blank">
+              <Button variant="primary" href="https://github.com/Pabl088/FruitApp/releases/download/Android/FruitApp.apk" target="_blank">
                 <AiOutlineDownload /> &nbsp; APK
+              </Button>
+            </div>
+          </div>
+        </div>
+        <div className={style.projectbox}>
+          <img src={DataSystem} alt="DataSystem" />
+          <div className={style.projectext}>
+            <h3>DataSystem</h3>
+            <p>
+              Desktop application for the management of business information, oriented to the sector of repair and maintenance of computer equipment.
+              <br />
+              <br />
+              Developed in Java with database connection and data export to PDF document.
+            </p>
+            <div className={style.buttons} style={{ justifyContent: "center" }}>
+              <Button variant="primary" href="https://github.com/Pabl088/DataSystem" target="_blank">
+                <BsGithub /> &nbsp; GitHub
               </Button>
             </div>
           </div>
